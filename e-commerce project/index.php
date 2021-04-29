@@ -6,20 +6,11 @@
         <meta name="author" content="Laplace Jonas, Berthet Thomas, Granger Stanislas" />
         <meta name="keywords" content="Esme, Sudria, Lyon, e-commerce" />
         <meta name="description" content="site de e-commerce du BDE de l'ESME Sudria Lyon" />
-        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="css/style.css" />
     </head>
     <body>
-        <header>
-            <img src="VGT_store_icon.png" alt="VGT store logo" id="logoFlottant" />
-            <h1>VGT STORE</h1>
-        </header>
-        
-        <nav>
-            <ul>
-                <li><a href="authentification.html">Anthentification</a></li>
-            </ul>
-        </nav>
-        
+        <?php include 'navbar.php';?>
+        <p> ici c l'l'index </p>
         <article>
             <p>
                 Bienvenue sur VGT store, le site de e-commerce du BDE de l'ESME Sudria Lyon.
